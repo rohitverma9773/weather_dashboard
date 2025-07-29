@@ -1,0 +1,66 @@
+ body {
+      background-color: #eaf6f6;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      padding: 20px 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-section {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    #search-button {
+      background: linear-gradient(to right, #43cea2, #185a9d);
+      border: none;
+    }
+
+    #search-button:hover {
+      background: linear-gradient(to right, #2bc0e4, #0b486b);
+    }
+
+    #clear-history {
+      background-color: #f67280;
+      color: white;
+      border: none;
+    }
+
+    #clear-history:hover {
+      background-color: #c06c84;
+    }
+
+    .card-weather {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .forecast {
+      background: linear-gradient(to right, #6dd5ed, #2193b0);
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+      padding: 15px;
+      min-height: 200px;
+    }
+
+    .forecast h5 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+
+    .text-primary {
+      color: #0077b6 !important;
+    }
+
+    .btn-block {
+      width: 100%;
+    }
